@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(221, 203, 203);
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  text-align: left;
+  padding-left: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+  padding-left: 30px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+    color: blue;
+  }
+}
+
+p {
+  font-size: 1rem;
+  margin: 30px;
+  text-align: left;
+}
+
+header {
+  padding-left: 0.5px;
+  height: 150px;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  height: 10em;
+}
+
+.header-info {
+  position: absolute;
+  top: 50px;
+  right: 16px;
+  padding-right: 50px;
+  margin-right: 50px;
+  border: 2px;
+  background-color: rgb(248, 232, 211);
+  border-radius: 20%;
+}
+
+.header-info > ul {
+  list-style: none;
+  color: darkblue;
+}
+
+nav ul {
+  background-color: bisque;
+  list-style: none;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  letter-spacing: 2px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: brown;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: silver;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: 2px;
+  margin: 10px;
+  background-color: antiquewhite;
+  border-radius: 10%;
+}
+img {
+  padding-bottom: 3%;
+  width: 300px;
+  height: 200px;
+}
+
+footer {
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+}
+
+footer img {
+  margin-left: 0%;
+  padding-left: 30px;
+  padding-top: 0.5%;
+  margin-right: auto;
+  width: 10em;
+  height: 5em;
+}
+
+.copyright {
+  text-align: right;
+  font-size: large;
+}
+
+.section1 {
+  background-image: url('beach.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.section1 > p {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.book {
+  text-align: left;
+  padding-left: 30px;
+}
